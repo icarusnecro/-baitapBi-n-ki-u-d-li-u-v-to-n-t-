@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let diemVatLy ;
+  let diemHoaHoc;
+  let diemSinhHoc;
+  diemVatLy = prompt(" Nhap diem vat ly :");
+  diemHoaHoc = prompt(" Nhap diem hoa hoc :");
+  diemSinhHoc = prompt(" Nhap diem sinh hoc :");
+  let diemVL = parseFloat(diemVatLy);
+  let diemHH = parseFloat(diemHoaHoc);
+  let diemSH = parseFloat(diemSinhHoc);
+  document.write("diem vat ly :  " + diemVL +'<br>');
+  document.write("diem Hoa Hoc:  " + diemHH + '<br>');
+  document.write("Diem Sinh Hoc: " + diemSH + '<br>');
+  let diemTb =  (diemVL + diemHH + diemSH) /3;
+  document.write("diem trung binh : "+ diemTb);
+</script>
+</body>
+</html>
